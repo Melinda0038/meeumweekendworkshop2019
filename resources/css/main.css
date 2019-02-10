@@ -58,7 +58,6 @@ body {
     font-family: var(--font-default);
     font-size: 18px;
     line-height: 1.8;
-
 }
 
 img {
@@ -66,7 +65,9 @@ img {
     height: auto;
 }
 
-
+video {
+    max-width: 100%;
+}
 
 /* ------------------------HEADINGS AND TYPE */
 
@@ -309,6 +310,8 @@ input[type="submit"]:hover {
 
         display: flex;
         align-items: center;
+        text-align: center;
+
     }
 
     .heading-main {
